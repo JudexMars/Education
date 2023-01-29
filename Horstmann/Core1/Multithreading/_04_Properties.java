@@ -42,5 +42,17 @@ public class _04_Properties {
 
         System.out.println("Amount of active threads in group " + tg.getName() + ": " + tg.activeCount());
         tg.interrupt();
+
+        /*
+         * Threads in Java have their own priority system. In earlier days, it was used
+         * to determine which thread has to be executed by the scheduler.
+         * Unfortunately, this system has different implementations on certain platforms.
+         * Nowadays, it is not recommended to use it: there are more reliable systems.
+         */
+        t = new Thread(tg, () -> {
+            System.out.println("Very important task");
+        });
+        // The highest available priority is set to 10, the lowest - to 1.
+        t.setPriority(Thread.MAX_PRIORITY);
     }
 }
