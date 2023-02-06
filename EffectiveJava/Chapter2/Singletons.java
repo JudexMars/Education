@@ -1,4 +1,4 @@
-package EffectiveJava.Chapter2._00_Creating_and_destroying_objects;
+package EffectiveJava.Chapter2;
 
 import java.io.Serializable;
 
