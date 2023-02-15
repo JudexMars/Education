@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.concurrent.*;
-
+@SuppressWarnings("unused")
 public class _19_Processes {
     public static void main(String ... args) throws IOException {
         var builder = new ProcessBuilder("clang", "cprog.cpp");

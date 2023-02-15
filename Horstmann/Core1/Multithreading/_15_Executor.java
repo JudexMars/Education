@@ -3,6 +3,7 @@ package Horstmann.Core1.Multithreading;
 import java.util.*;
 import java.util.concurrent.*;
 
+@SuppressWarnings("unused")
 public class _15_Executor {
     public static void main(String ... args) {
         var exec = Executors.newCachedThreadPool();

@@ -1,8 +1,7 @@
 package EffectiveJava.Chapter3;
-
 import java.util.Comparator;
 import java.util.Objects;
-
+@SuppressWarnings("unused")
 public class CommonMethods {
     public static void main(String ... args) {
         Profile p1 = new Profile("Donald Kimble", 22, Profile.Sex.MALE);
