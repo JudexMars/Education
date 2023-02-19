@@ -27,7 +27,6 @@ public class _01_Introduction {
                     Thread.sleep(300); // Sleep method is used to cease execution of the thread
                 }
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
          };
@@ -40,7 +39,6 @@ public class _01_Introduction {
                     Thread.sleep(300); 
                 }
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
          };

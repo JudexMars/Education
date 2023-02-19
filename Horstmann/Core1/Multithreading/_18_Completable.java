@@ -27,7 +27,6 @@ public class _18_Completable {
         try {
             System.out.println(test3.get());
         } catch (InterruptedException | ExecutionException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
