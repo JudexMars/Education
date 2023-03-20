@@ -1,4 +1,4 @@
-package Tinkoff.Task1;
+package Tinkoff.Eternal_Contest.Task1;
 
 import java.util.Scanner;
 

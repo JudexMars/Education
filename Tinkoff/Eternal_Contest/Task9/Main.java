@@ -1,4 +1,4 @@
-package Tinkoff.Task9;
+package Tinkoff.Eternal_Contest.Task9;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,14 +39,14 @@ public class Main {
         }
     }
 
-    private static void print2DArray(int[][] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
-                System.out.print(arr[i][j] + ", ");
-            }
-            System.out.println();
-        }   
-    }
+    // private static void print2DArray(int[][] arr) {
+    //     for (int i = 0; i < arr.length; i++) {
+    //         for (int j = 0; j < arr[i].length; j++) {
+    //             System.out.print(arr[i][j] + ", ");
+    //         }
+    //         System.out.println();
+    //     }   
+    // }
 
     private static int[][] fill(int[][] arr, int x) {
         for (int i = 0; i < arr.length; i++)

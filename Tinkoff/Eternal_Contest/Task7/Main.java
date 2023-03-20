@@ -1,4 +1,4 @@
-package Tinkoff.Task7;
+package Tinkoff.Eternal_Contest.Task7;
 
 import java.util.ArrayList;
 import java.util.List;

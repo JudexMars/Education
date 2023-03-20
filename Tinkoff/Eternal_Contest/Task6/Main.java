@@ -1,4 +1,4 @@
-package Tinkoff.Task6;
+package Tinkoff.Eternal_Contest.Task6;
 
 import java.util.Scanner;
 import java.util.ArrayList;
