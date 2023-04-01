@@ -1,7 +1,7 @@
 package Tinkoff.Eternal_Contest.Task5;
 
 import java.util.Scanner;
-
+@SuppressWarnings("all")
 public class Alt {
     public static void main(String ... args) {
         try (Scanner in = new Scanner(System.in)) {
